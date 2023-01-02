@@ -12,7 +12,7 @@ export default function Home() {
         <title>Rohit Rai's Portfolio</title>
       </Head>
 
-      <h1>Hello World! I am Rohit Rai.</h1>
+      <h1 className="text-red-500">Hello World! I am Rohit Rai.</h1>
     </div>
   )
 }
