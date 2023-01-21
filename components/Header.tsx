@@ -18,12 +18,18 @@ export default function Header({}: Props) {
           fgColor="gray"
           bgColor="transparent"
         />
+      </div>
+
+      <div className="flex flex-row items-center text-gray-300 cursor-pointer">
         <SocialIcon
-          url="rohitraijob@gmail.com"
+          className="cursor-pointer"
+          network="email"
           fgColor="gray"
           bgColor="transparent"
-          label="Email"
         />
+        <p className="uppercase hiddern md:inline-flex text-sm text-gray-400">
+          Get In Touch
+        </p>
       </div>
     </header>
   );
