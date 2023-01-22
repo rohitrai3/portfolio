@@ -26,6 +26,11 @@ export default function ContactMe({}: Props) {
             <EnvelopeIcon className="text-[#f7ab0a]/50 h-7 w-7 animate-pulse" />
             <p className="text-2xl">rohitraijob@gmail.com</p>
           </div>
+
+          <div className="flex items-center space-x-5 justify-center">
+            <MapPinIcon className="text-[#f7ab0a]/50 h-7 w-7 animate-pulse" />
+            <p className="text-2xl">New Delhi, India</p>
+          </div>
         </div>
       </div>
     </div>
