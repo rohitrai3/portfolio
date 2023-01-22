@@ -14,7 +14,22 @@ export default function Skills({}: Props) {
         Hover over a skill for current proficiency
       </h3>
 
-      <div>
+      <div className="grid grid-cols-4 gap-5">
+        <Skill />
+        <Skill />
+        <Skill />
+        <Skill />
+        <Skill />
+        <Skill />
+        <Skill />
+        <Skill />
+        <Skill />
+        <Skill />
+        <Skill />
+        <Skill />
+        <Skill />
+        <Skill />
+        <Skill />
         <Skill />
       </div>
     </div>
