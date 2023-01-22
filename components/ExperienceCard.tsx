@@ -1,12 +1,13 @@
 import React from "react";
 import { motion } from "framer-motion";
+import Image from "next/image";
 
 type Props = {};
 
 export default function ExperienceCard({}: Props) {
   return (
     <article>
-      <motion.img
+      <motion.div
         initial={{
           y: -100,
           opacity: 0,
@@ -21,10 +22,15 @@ export default function ExperienceCard({}: Props) {
         viewport={{
           once: true,
         }}
-        className="w-32 h-32 rounded-full xl:w-[200px] xl:h-[200px] object-cover object-center"
-        src="https://raw.githubusercontent.com/rohitrai3/resources/main/images/logo.png"
-        alt="Company Logo"
-      />
+      >
+        <Image
+          className="w-32 h-32 rounded-full xl:w-[200px] xl:h-[200px] object-cover object-center"
+          src="https://raw.githubusercontent.com/rohitrai3/resources/main/images/logo.png"
+          alt="Company Logo"
+          width={128}
+          height={128}
+        />
+      </motion.div>
     </article>
   );
 }
