@@ -32,6 +32,23 @@ export default function ContactMe({}: Props) {
             <p className="text-2xl">New Delhi, India</p>
           </div>
         </div>
+
+        <form className="flex flex-col space-y-2 w-fit mx-auto">
+          <div className="flex space-x-2">
+            <input placeholder="Name" className="contact-input" type="text" />
+            <input placeholder="Email" className="contact-input" type="text" />
+          </div>
+
+          <input placeholder="Subject" className="contact-input" type="text" />
+
+          <textarea placeholder="Message" className="contact-input" />
+          <button
+            type="submit"
+            className="bg-[#f7ab0a] py-5 px-10 rounded-sm text-black font-bold text-lg"
+          >
+            Submit
+          </button>
+        </form>
       </div>
     </div>
   );
