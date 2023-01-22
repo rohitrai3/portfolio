@@ -34,6 +34,12 @@ export default function Hero({}: Props) {
           <span className="mr-3">{text}</span>
           <Cursor cursorColor="#f7ab0a" />
         </h1>
+        <div>
+          <button className="hero-button">About</button>
+          <button className="hero-button">Experience</button>
+          <button className="hero-button">Skills</button>
+          <button className="hero-button">Projects</button>
+        </div>
       </div>
     </div>
   );
