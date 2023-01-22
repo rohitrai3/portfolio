@@ -35,6 +35,29 @@ export default function ExperienceCard({}: Props) {
       <div className="px-0 md:px-10">
         <h4 className="text-4xl font-light">Postion Title</h4>
         <p className="font-bold text-2xl mt-1">Company Name</p>
+        <div className="flex space-x-2 my-2">
+          <Image
+            className="h-10 w-10 rounded-full"
+            src="https://raw.githubusercontent.com/rohitrai3/resources/main/images/logo.png"
+            alt="Tech logo"
+            width={40}
+            height={40}
+          />
+          <Image
+            className="h-10 w-10 rounded-full"
+            src="https://raw.githubusercontent.com/rohitrai3/resources/main/images/logo.png"
+            alt="Tech logo"
+            width={40}
+            height={40}
+          />
+          <Image
+            className="h-10 w-10 rounded-full"
+            src="https://raw.githubusercontent.com/rohitrai3/resources/main/images/logo.png"
+            alt="Tech logo"
+            width={40}
+            height={40}
+          />
+        </div>
       </div>
     </article>
   );
