@@ -2,6 +2,7 @@ import React from "react";
 import { Cursor, useTypewriter } from "react-simple-typewriter";
 import BackgroundCircles from "./BackgroundCircles";
 import Image from "next/image";
+import Link from "next/link";
 
 type Props = {};
 
@@ -34,11 +35,19 @@ export default function Hero({}: Props) {
           <span className="mr-3">{text}</span>
           <Cursor cursorColor="#f7ab0a" />
         </h1>
-        <div>
-          <button className="hero-button">About</button>
-          <button className="hero-button">Experience</button>
-          <button className="hero-button">Skills</button>
-          <button className="hero-button">Projects</button>
+        <div className="pt-5">
+          <Link href="#about">
+            <button className="hero-button">About</button>
+          </Link>
+          <Link href="#experience">
+            <button className="hero-button">Experience</button>
+          </Link>
+          <Link href="#skills">
+            <button className="hero-button">Skills</button>
+          </Link>
+          <Link href="#projects">
+            <button className="hero-button">Projects</button>
+          </Link>
         </div>
       </div>
     </div>
