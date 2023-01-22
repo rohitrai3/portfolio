@@ -28,6 +28,14 @@ export default function About({}: Props) {
         src="https://raw.githubusercontent.com/rohitrai3/resources/main/images/logo.png"
         className="-mb-20 md:mb-0 flex-shrink-0 w-56 h-56 rounded-full object-cover md:rounded-lg md:w-64 md:h-96 xl:w-[500px] xl:h-[600px]"
       />
+
+      <div className="space-y-10 px-0 md:px-10">
+        <h4 className="text-4xl font-semibold">
+          Here is a{" "}
+          <span className="underline decoration-[#f7ab0a">little</span>{" "}
+          background
+        </h4>
+      </div>
     </div>
   );
 }
