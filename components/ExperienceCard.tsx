@@ -31,6 +31,11 @@ export default function ExperienceCard({}: Props) {
           height={128}
         />
       </motion.div>
+
+      <div className="px-0 md:px-10">
+        <h4 className="text-4xl font-light">Postion Title</h4>
+        <p className="font-bold text-2xl mt-1">Company Name</p>
+      </div>
     </article>
   );
 }
