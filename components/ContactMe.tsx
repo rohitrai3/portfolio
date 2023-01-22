@@ -8,6 +8,13 @@ export default function ContactMe({}: Props) {
       <h3 className="absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl">
         Contact Me
       </h3>
+
+      <div>
+        <h4>
+          I have got just what you need.{" "}
+          <span className="decoration-[#f7ab0a]/50 underline">Lets Talk.</span>
+        </h4>
+      </div>
     </div>
   );
 }
