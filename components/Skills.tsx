@@ -1,4 +1,5 @@
 import React from "react";
+import Skill from "./Skill";
 
 type Props = {};
 
@@ -12,6 +13,10 @@ export default function Skills({}: Props) {
       <h3 className="absolute top-36 uppercase tracking-[3px] text-gray-500 text-sm">
         Hover over a skill for current proficiency
       </h3>
+
+      <div>
+        <Skill />
+      </div>
     </div>
   );
 }
