@@ -7,6 +7,8 @@ import WorkExperience from "../components/WorkExperience";
 import Skills from "../components/Skills";
 import Projects from "../components/Projects";
 import ContactMe from "../components/ContactMe";
+import Link from "next/link";
+import Image from "next/image";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -49,6 +51,21 @@ export default function Home() {
       <section id="contact" className="snap-start">
         <ContactMe />
       </section>
+
+      {/* Go to top */}
+      <Link href="#hero">
+        <footer className="sticky bottom-5 w-full cursor-pointer">
+          <div className="flex items-center justify-center">
+            <Image
+              className="h-10 w-10 rounded-full filter grayscale hover:grayscale-0 cursor-pointer"
+              src="https://raw.githubusercontent.com/rohitrai3/resources/main/images/logo.png"
+              alt="Portrati"
+              width={40}
+              height={40}
+            />
+          </div>
+        </footer>
+      </Link>
     </div>
   );
 }
