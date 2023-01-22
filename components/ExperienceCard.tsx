@@ -58,6 +58,7 @@ export default function ExperienceCard({}: Props) {
             height={40}
           />
         </div>
+        <p className="uppercase py-5 text-gray-300">Started... - Ended...</p>
       </div>
     </article>
   );
