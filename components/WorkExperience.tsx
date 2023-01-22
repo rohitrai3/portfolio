@@ -1,5 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
+import ExperienceCard from "./ExperienceCard";
 
 type Props = {};
 
@@ -20,6 +21,12 @@ export default function WorkExperience({}: Props) {
       <h3 className="absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl">
         Work Experience
       </h3>
+
+      <div>
+        <ExperienceCard />
+        <ExperienceCard />
+        <ExperienceCard />
+      </div>
     </motion.div>
   );
 }
