@@ -26,10 +26,15 @@ export default function Hero({}: Props) {
         width={128}
         height={128}
       />
-      <h1>
-        <span>{text}</span>
-        <Cursor cursorColor="#f7ab0a" />
-      </h1>
+      <div>
+        <h2 className="text-sm uppercase text-gray-500 pb-2 tracking-[15px]">
+          Software Development Engineer
+        </h2>
+        <h1 className="text-5xl lg:text-6xl font-semibold px-10">
+          <span className="mr-3">{text}</span>
+          <Cursor cursorColor="#f7ab0a" />
+        </h1>
+      </div>
     </div>
   );
 }
