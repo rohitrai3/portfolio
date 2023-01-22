@@ -21,6 +21,11 @@ export default function ContactMe({}: Props) {
             <PhoneIcon className="text-[#f7ab0a]/50 h-7 w-7 animate-pulse" />
             <p className="text-2xl">+1234567890</p>
           </div>
+
+          <div className="flex items-center space-x-5 justify-center">
+            <EnvelopeIcon className="text-[#f7ab0a]/50 h-7 w-7 animate-pulse" />
+            <p className="text-2xl">rohitraijob@gmail.com</p>
+          </div>
         </div>
       </div>
     </div>
