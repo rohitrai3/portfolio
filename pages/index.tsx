@@ -45,7 +45,7 @@ export default function Home({
 
       {/* Hero */}
       <section id="hero" className="snap-start">
-        <Hero />
+        <Hero pageInfo={pageInfo} />
       </section>
 
       {/* About */}
