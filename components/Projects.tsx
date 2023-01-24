@@ -1,12 +1,14 @@
 import Image from "next/image";
 import React from "react";
 import { motion } from "framer-motion";
+import { Project } from "../typings";
+import { urlFor } from "../sanity";
 
-type Props = {};
+type Props = {
+  projects: Project[];
+};
 
-export default function Projects({}: Props) {
-  const projects = [1, 2, 3, 4, 5];
-
+export default function Projects({ projects }: Props) {
   return (
     <motion.div
       initial={{
@@ -44,10 +46,10 @@ export default function Projects({}: Props) {
               }}
             >
               <Image
-                src="https://raw.githubusercontent.com/rohitrai3/resources/main/images/logo.png"
-                alt="Project photo"
+                src={urlFor(project?.image).url()}
                 width={128}
                 height={128}
+                alt="Project screenshot"
               />
             </motion.div>
 
@@ -56,17 +58,21 @@ export default function Projects({}: Props) {
                 <span className="underline decoration-[#f7ab0a]/50">
                   Project {i + 1} of {projects.length}:
                 </span>{" "}
-                PhotoShare
+                {project?.title}
               </h4>
-
+              <div className="flex items-center space-x-2 justify-center">
+                {project?.technologies.map((technology) => (
+                  <Image
+                    className="h-10 w-10"
+                    src={urlFor(technology.image).url()}
+                    width={40}
+                    height={40}
+                    alt="Tech logo"
+                  />
+                ))}
+              </div>
               <p className="text-lg text-center md:text-left">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                sunt in culpa qui officia deserunt mollit anim id est laborum.
+                {project?.summary}
               </p>
             </div>
           </div>
