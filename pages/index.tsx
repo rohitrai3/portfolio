@@ -55,7 +55,7 @@ export default function Home({
 
       {/* Work Experience */}
       <section id="experience" className="snap-center">
-        <WorkExperience />
+        <WorkExperience experiences={experiences} />
       </section>
 
       {/* Skills */}
@@ -106,5 +106,6 @@ export const getStaticProps: GetStaticProps<Props> = async () => {
       projects,
       socials,
     },
+    revalidate: 10,
   };
 };
