@@ -64,8 +64,9 @@ export default function Projects({ projects }: Props) {
                 {project?.title}
               </h4>
               <div className="flex items-center space-x-2 justify-center">
-                {project?.technologies.map((technology) => (
+                {project?.technologies.map((technology, i) => (
                   <Image
+                    key={i}
                     className="h-10 w-10"
                     src={urlFor(technology.image).url()}
                     width={40}
