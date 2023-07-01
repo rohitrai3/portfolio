@@ -6,8 +6,12 @@ export default function Home() {
           className="profile-photo"
           src="https://raw.githubusercontent.com/rohitrai3/resources/main/images/logo.png"
         />
-        <div className="headline-small">SOFTWARE ENGINEER</div>
-        <div className="display-large">Hi, The name's Rohit Rai</div>
+        <div className="headline-small on-background-text">
+          SOFTWARE ENGINEER
+        </div>
+        <div className="display-large on-background-text">
+          Hi, The name's Rohit Rai
+        </div>
       </div>
     </div>
   );
