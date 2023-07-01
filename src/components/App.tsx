@@ -1,12 +1,12 @@
 import Header from "./header";
-import Homepage from "./homepage";
+import Home from "./home";
 import Navigation from "./navigation";
 
 function App() {
   return (
     <>
       <Header />
-      <Homepage />
+      <Home />
       <Navigation />
     </>
   );
