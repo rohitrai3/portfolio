@@ -180,3 +180,37 @@ body {
 .job-description {
   margin-top: 40px;
 }
+
+.projects {
+  padding-left: 16px;
+  padding-right: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.projects-content {
+  height: 80vh;
+  overflow: scroll;
+}
+
+.project-logo {
+  width: 100%;
+  background-color: #ffffff;
+  border-radius: 12px;
+}
+
+.project-name {
+  margin-top: 40px;
+  margin-bottom: 8px;
+}
+
+.project-tools {
+  display: flex;
+  justify-content: space-between;
+}
+
+.project-description {
+  margin-top: 40px;
+}
