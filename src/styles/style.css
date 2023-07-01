@@ -139,3 +139,44 @@ body {
   margin-top: 56px;
   margin-bottom: 28px;
 }
+
+.experience {
+  padding-left: 16px;
+  padding-right: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.experience-content {
+  height: 80vh;
+  overflow: scroll;
+}
+
+.card {
+  border-radius: 12px;
+  margin: 16px;
+  padding: 16px;
+  box-shadow: 0px 2px 4px 1px;
+}
+
+.company-logo {
+  width: 100%;
+  background-color: #ffffff;
+  border-radius: 12px;
+}
+
+.job-title {
+  margin-top: 40px;
+  margin-bottom: 8px;
+}
+
+.job-subtitle {
+  display: flex;
+  justify-content: space-between;
+}
+
+.job-description {
+  margin-top: 40px;
+}
