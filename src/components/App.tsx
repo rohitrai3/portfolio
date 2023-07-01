@@ -5,6 +5,7 @@ import Home from "./home";
 import Navigation, { NavigationProps } from "./navigation";
 import { useState } from "react";
 import Projects from "./projects/projects";
+import Contact from "./contact";
 
 function App() {
   const [activeTab, setActiveTab] = useState<string>("home");
@@ -19,6 +20,8 @@ function App() {
         return <Experience />;
       case "projects":
         return <Projects />;
+      case "contact":
+        return <Contact />;
     }
   };
 
