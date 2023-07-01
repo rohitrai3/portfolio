@@ -91,7 +91,7 @@ body {
   padding-top: 4px;
 }
 
-.homepage {
+.home {
   padding-left: 16px;
   padding-right: 16px;
   display: flex;
@@ -100,7 +100,7 @@ body {
   height: 100vh;
 }
 
-.homepage-content {
+.home-content {
   display: flex;
   flex-direction: column;
   align-items: center;

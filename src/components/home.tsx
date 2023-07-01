@@ -1,7 +1,7 @@
-export default function Homepage() {
+export default function Home() {
   return (
-    <div className="homepage">
-      <div className="homepage-content">
+    <div className="home">
+      <div className="home-content">
         <img
           className="profile-photo"
           src="https://raw.githubusercontent.com/rohitrai3/resources/main/images/logo.png"
