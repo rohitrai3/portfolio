@@ -1,4 +1,5 @@
 import About from "./about";
+import Experience from "./experience/experience";
 import Header from "./header";
 import Home from "./home";
 import Navigation, { NavigationProps } from "./navigation";
@@ -13,6 +14,8 @@ function App() {
         return <Home />;
       case "about":
         return <About />;
+      case "experience":
+        return <Experience />;
     }
   };
 
