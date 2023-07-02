@@ -11,6 +11,11 @@
     fill: var(--md-sys-color-on-secondary-container-light);
     background-color: var(--md-sys-color-secondary-container);
   }
+
+  .contact-icon {
+    fill: var(--md-sys-color-on-background-light);
+    margin-right: 20px;
+  }
 }
 
 @media (prefers-color-scheme: dark) {
@@ -26,6 +31,11 @@
   .navigation-active {
     fill: var(--md-sys-color-on-secondary-container-dark);
     background-color: var(--md-sys-color-secondary-container);
+  }
+  
+  .contact-icon {
+    fill: var(--md-sys-color-on-background-dark);
+    margin-right: 20px;
   }
 }
 
@@ -240,10 +250,6 @@ body {
   margin-bottom: 10px;
   display: flex;
   justify-content: center;
-}
-
-.contact-item img {
-  margin-right: 20px;
 }
 
 .contact-field {
