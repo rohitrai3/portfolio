@@ -66,15 +66,16 @@ body {
   position: fixed;
   bottom: 0;
   z-index: 1;
+  overflow: scroll;
 }
 
 .navigation-item {
   padding: 12px;
   cursor: pointer;
+  flex: 1;
 }
 
 .navigation-icon {
-  width: 64px;
   height: 32px;
   border-radius: 16px;
   display: flex;
@@ -87,7 +88,6 @@ body {
 }
 
 .navigation-label {
-  width: 64px;
   height: 16px;
   display: flex;
   justify-content: center;
