@@ -1,6 +1,5 @@
 import About from "./about";
 import Experience from "./experience/experience";
-import Header from "./header";
 import Home from "./home";
 import Navigation, { NavigationProps } from "./navigation";
 import { useState } from "react";
@@ -32,9 +31,6 @@ function App() {
 
   return (
     <div className="app-layout">
-      <div className="app-header">
-        <Header />
-      </div>
       <div className="app-navigation">
         <Navigation {...navigationProps} />
       </div>
