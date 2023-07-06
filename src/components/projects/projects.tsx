@@ -21,10 +21,8 @@ export default function Projects() {
 
   return (
     <div className="projects">
-      <div className="projects-content">
-        <Card {...photoshareProps} />
-        <Card {...erpProps} />
-      </div>
+      <Card {...photoshareProps} />
+      <Card {...erpProps} />
     </div>
   );
 }

@@ -31,11 +31,15 @@ function App() {
   };
 
   return (
-    <>
-      <Header />
-      {getActiveTab()}
-      <Navigation {...navigationProps} />
-    </>
+    <div className="app-layout">
+      <div className="app-header">
+        <Header />
+      </div>
+      <div className="app-navigation">
+        <Navigation {...navigationProps} />
+      </div>
+      <div className="app-content">{getActiveTab()}</div>
+    </div>
   );
 }
 

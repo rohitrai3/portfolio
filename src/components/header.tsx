@@ -7,14 +7,10 @@ export default function Header() {
     <div className="header">
       <div className="header-left">
         <a href="https://www.linkedin.com/in/rohitrai03/">
-          <div className="header-logo">
-            <img src={linkedin} />
-          </div>
+          <img src={linkedin} />
         </a>
         <a href="https://github.com/rohitrai3">
-          <div className="header-logo">
-            <img src={github} />
-          </div>
+          <img src={github} />
         </a>
       </div>
       <div className="header-right">
