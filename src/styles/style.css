@@ -278,4 +278,20 @@ body {
   .home-heading {
     margin-right: 24px;
   }
+
+  .about {
+    padding-left: 80px;
+    margin-left: 24px;
+    margin-right: 24px;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .about-heading {
+    margin-right: 24px;
+  }
+
+  .about-description {
+    max-width: 600px;
+  }
 }
