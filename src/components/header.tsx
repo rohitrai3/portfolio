@@ -1,6 +1,6 @@
 import linkedin from "../assets/linkedin.svg";
 import github from "../assets/github.svg";
-import email from "../assets/email.svg";
+import gmail from "../assets/gmail.svg";
 
 export default function Header() {
   return (
@@ -15,7 +15,7 @@ export default function Header() {
       </div>
       <div className="header-right">
         <div className="header-logo">
-          <img src={email} />
+          <img src={gmail} />
         </div>
       </div>
     </div>
