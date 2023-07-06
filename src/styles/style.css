@@ -266,4 +266,16 @@ body {
     flex-direction: column;
     justify-content: center;
   }
+
+  .home {
+    padding-left: 80px;
+    margin-left: 24px;
+    margin-right: 24px;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .home-heading {
+    margin-right: 24px;
+  }
 }
