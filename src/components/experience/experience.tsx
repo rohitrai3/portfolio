@@ -36,11 +36,9 @@ export default function Experience() {
 
   return (
     <div className="experience">
-      <div className="experience-content">
-        <Card {...amazonProps} />
-        <Card {...infotechProps} />
-        <Card {...whirlpoolProps} />
-      </div>
+      <Card {...amazonProps} />
+      <Card {...infotechProps} />
+      <Card {...whirlpoolProps} />
     </div>
   );
 }
