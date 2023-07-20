@@ -1,43 +1,4 @@
-@media (prefers-color-scheme: light) {
-  body {
-    background-color: var(--md-sys-color-background-light);
-  }
-
-  .navigation-dot {
-    fill: var(--md-sys-color-on-surface-variant-light)
-  }
-
-  .navigation-active {
-    fill: var(--md-sys-color-on-secondary-container-light);
-    background-color: var(--md-sys-color-secondary-container);
-  }
-
-  .contact-icon {
-    fill: var(--md-sys-color-on-background-light);
-    margin-right: 20px;
-  }
-}
-
-@media (prefers-color-scheme: dark) {
-  body {
-    background-color: var(--md-sys-color-background-dark);
-  }
-
-  .navigation-dot {
-    margin: 6px;
-    fill: var(--md-sys-color-on-surface-variant-dark)
-  }
-
-  .navigation-active {
-    fill: var(--md-sys-color-on-secondary-container-dark);
-    background-color: var(--md-sys-color-secondary-container);
-  }
-  
-  .contact-icon {
-    fill: var(--md-sys-color-on-background-dark);
-    margin-right: 20px;
-  }
-}
+/* Global */
 
 body {
   margin: 0px;
@@ -95,6 +56,8 @@ body {
   padding-top: 4px;
 }
 
+/* Home */
+
 .home {
   height: 100%;
   padding-left: 16px;
@@ -105,12 +68,11 @@ body {
   text-align: center;
 }
 
-.home img {
+.profile-photo {
   width: 200px;
   height: 200px;
   margin: 14px;
-  background-color: #ffffff;
-  border: 4px solid #ffffff;
+  border: 4px solid var(--md-sys-color-primary-light);
   border-radius: 100px;
 }
 
@@ -248,6 +210,35 @@ body {
 
 .contact a {
   text-decoration: none;
+}
+
+@media (prefers-color-scheme: dark) {
+  /* Global */
+
+  body {
+    background-color: var(--md-sys-color-background-dark);
+  }
+
+  .navigation-dot {
+    margin: 6px;
+    fill: var(--md-sys-color-on-surface-variant-dark)
+  }
+
+  .navigation-active {
+    fill: var(--md-sys-color-on-secondary-container-dark);
+    background-color: var(--md-sys-color-secondary-container);
+  }
+
+  /* Home */
+
+  .profile-photo {
+    border: 4px solid var(--md-sys-color-primary-dark);
+  }
+  
+  .contact-icon {
+    fill: var(--md-sys-color-on-background-dark);
+    margin-right: 20px;
+  }
 }
 
 @media screen and (min-width: 840px) {
