@@ -5,11 +5,9 @@ export default function Home() {
     <div className="home">
       <div className="home-heading">
         <img className="profile-photo" src={ProfilePhoto} />
-        <div className="tagline-small on-background-text">
-          SOFTWARE ENGINEER
-        </div>
+        <div className="title-large">SOFTWARE ENGINEER</div>
       </div>
-      <div className="home-description display-large on-background-text">
+      <div className="home-description display-large">
         Hi, The name's Rohit Rai
       </div>
     </div>
