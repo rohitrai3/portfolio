@@ -3,7 +3,7 @@ import Experience from "./experience";
 import Home from "./home";
 import Navigation, { NavigationProps } from "./navigation";
 import { useState } from "react";
-import Projects from "./projects/projects";
+import Project from "./project";
 import Contact from "./contact";
 
 function App() {
@@ -18,7 +18,7 @@ function App() {
       case "experience":
         return <Experience />;
       case "projects":
-        return <Projects />;
+        return <Project />;
       case "contact":
         return <Contact />;
     }

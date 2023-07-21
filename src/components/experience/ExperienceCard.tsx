@@ -14,7 +14,7 @@ export default function ExperienceCard({
   job_description,
 }: ExperienceCardProps) {
   return (
-    <div className="card surface-container-low on-surface-text">
+    <div className="card primary-container on-primary-container-text">
       <img className="company-logo" src={company_logo} />
       <div className="card-detail">
         <div className="job-title body-large">{job_role}</div>

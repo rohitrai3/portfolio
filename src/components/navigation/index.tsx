@@ -1,5 +1,5 @@
 import React from "react";
-import { DotIcon } from "../common/icons";
+import { DotIcon } from "../../common/icons";
 
 export type NavigationProps = {
   activeTab: string;
@@ -53,7 +53,7 @@ export default function Navigation({
           {DotIcon}
         </div>
         <div className="navigation-label">
-          <p className="on-surface-text label-medium">Projects</p>
+          <p className="on-surface-text label-medium">Project</p>
         </div>
       </div>
       {/* Contact */}

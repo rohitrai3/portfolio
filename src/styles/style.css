@@ -11,6 +11,28 @@
   border-radius: 100px;
 }
 
+.card {
+  border-radius: 12px;
+  margin: 16px;
+  box-shadow: 0px 1px 3px 1px var(--md-sys-color-outline-variant-light), 0px 1px 2px 0px var(--md-sys-color-outline-light);
+}
+
+.card-detail {
+  padding: 16px;
+}
+
+.react-logo-circle {
+  fill: #087ea3;
+}
+
+.react-logo-ellipse {
+  stroke: #087ea3;
+}
+
+a {
+  text-decoration: none;
+}
+
 /* App */
 
 .app-layout {
@@ -135,20 +157,10 @@
   overflow: auto;
 }
 
-.card {
-  border-radius: 12px;
-  margin: 16px;
-  box-shadow: 0px 1px 3px 1px var(--md-sys-color-outline-variant-light), 0px 1px 2px 0px var(--md-sys-color-outline-light);
-}
-
 .company-logo {
   width: 100%;
   background-color: white;
   border-radius: 12px;
-}
-
-.card-detail {
-  padding: 16px;
 }
 
 .job-title {
@@ -169,31 +181,42 @@
   text-align: end;
 }
 
-.projects {
-  padding: 12px 16px 80px 16px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
+/* Project */
 
-.project-logo {
-  width: 100%;
-  background-color: #ffffff;
-  border-radius: 12px;
+.project {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  overflow: auto;
 }
 
 .project-name {
-  margin-top: 40px;
-  margin-bottom: 8px;
+  text-align: center;
+  background-color: white;
+  color: black;
+  border-radius: 12px;
+  padding: 20px 0px;
 }
 
 .project-tools {
   display: flex;
-  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.project-tools svg {
+  width: 48px;
+  height: 48px;
+}
+
+.project-tool {
+  flex: 1;
+  text-align: center;
 }
 
 .project-description {
-  margin-top: 40px;
+  margin-top: 20px;
 }
 
 .contact {
@@ -237,6 +260,35 @@
     border: 4px solid var(--md-sys-color-primary-dark);
   }
 
+  .card {
+    box-shadow: 0px 1px 3px 1px var(--md-sys-color-outline-variant-dark), 0px 1px 2px 0px var(--md-sys-color-outline-dark);
+  }
+
+  .react-logo-circle {
+    fill: #149dc9;
+  }
+
+  .react-logo-ellipse {
+    stroke: #149dc9;
+  }
+
+  .redux-logo {
+    fill: #ba8fff;
+  }
+
+  .firebase-logo-circle {
+    fill: #fff;
+  }
+
+  .firebase-logo-circle-content {
+    fill: #000;
+    fill-opacity: 0.54;
+  }
+
+  .vercel-logo {
+    fill: white;
+  }
+
   /* Navigation */
 
   .navigation-icon svg {
@@ -259,12 +311,6 @@
 
   .about-timeline-body {
     border-left: 1px solid var(--md-sys-color-outline-dark);
-  }
-
-  /* Card */
-  
-  .card {
-    box-shadow: 0px 1px 3px 1px var(--md-sys-color-outline-variant-dark), 0px 1px 2px 0px var(--md-sys-color-outline-dark);
   }
 }
 
