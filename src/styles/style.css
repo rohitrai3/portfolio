@@ -1,72 +1,58 @@
-@media (prefers-color-scheme: light) {
-  body {
-    background-color: var(--md-sys-color-background-light);
-  }
+/* Global */
 
-  .navigation-dot {
-    fill: var(--md-sys-color-on-surface-variant-light)
-  }
-
-  .navigation-active {
-    fill: var(--md-sys-color-on-secondary-container-light);
-    background-color: var(--md-sys-color-secondary-container);
-  }
-
-  .contact-icon {
-    fill: var(--md-sys-color-on-background-light);
-    margin-right: 20px;
-  }
-}
-
-@media (prefers-color-scheme: dark) {
-  body {
-    background-color: var(--md-sys-color-background-dark);
-  }
-
-  .navigation-dot {
-    margin: 6px;
-    fill: var(--md-sys-color-on-surface-variant-dark)
-  }
-
-  .navigation-active {
-    fill: var(--md-sys-color-on-secondary-container-dark);
-    background-color: var(--md-sys-color-secondary-container);
-  }
-  
-  .contact-icon {
-    fill: var(--md-sys-color-on-background-dark);
-    margin-right: 20px;
-  }
-}
-
-body {
+* {
   margin: 0px;
 }
 
+.profile-photo {
+  width: 200px;
+  height: 200px;
+  border: 4px solid var(--md-sys-color-primary-light);
+  border-radius: 100px;
+}
+
+.card {
+  border-radius: 12px;
+  margin: 16px;
+  box-shadow: 0px 1px 3px 1px var(--md-sys-color-outline-variant-light), 0px 1px 2px 0px var(--md-sys-color-outline-light);
+}
+
+.card-detail {
+  padding: 16px;
+}
+
+.react-logo-circle {
+  fill: #087ea3;
+}
+
+.react-logo-ellipse {
+  stroke: #087ea3;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* App */
+
 .app-layout {
+  width: 100dvw;
   height: 100dvh;
   display: flex;
   flex-direction: column;
 }
 
-.app-navigation {
-  order: 2;
+.app-content {
+  flex: 1;
+  position: relative;
 }
 
-.app-content {
-  order: 1;
-  flex: 1;
-}
+/* Navigation */
 
 .navigation {
   height: 80px;
-  width: 100%;
   display: flex;
   justify-content: space-between;
-  position: fixed;
-  bottom: 0;
-  z-index: 1;
-  overflow: auto;
 }
 
 .navigation-item {
@@ -83,151 +69,169 @@ body {
   align-items: center;
 }
 
-.navigation-dot {
+.navigation-icon svg {
   margin: 6px;
+  fill: var(--md-sys-color-on-surface-variant-light);
 }
 
 .navigation-label {
   height: 16px;
+  font-weight: bold;
   display: flex;
   justify-content: center;
   align-items: center;
   padding-top: 4px;
 }
 
-.home {
-  height: 100%;
-  padding-left: 16px;
-  padding-right: 16px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
+.navigation-active svg {
+  fill: var(--md-sys-color-on-secondary-container-light);
 }
 
-.home img {
-  width: 200px;
-  height: 200px;
-  margin: 14px;
-  background-color: #ffffff;
-  border: 4px solid #ffffff;
-  border-radius: 100px;
+/* Home */
+
+.home {
+  display: grid;
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  bottom: 16px;
+  left: 16px;
+  overflow: auto;
 }
 
 .home-heading {
-  order: 1;
+  align-self: end;
+  justify-self: center;
+  text-align: center;
+  margin-bottom: 16px;
 }
 
 .home-description {
-  order: 2;
-  margin-top: 8px;
-  margin-bottom: 80px;
-}
-
-.about {
-  height: 100%;
-  padding-left: 16px;
-  padding-right: 16px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
   text-align: center;
 }
 
-.about img {
-  width: 200px;
-  height: 200px;
-  margin: 14px;
-  background-color: #ffffff;
-  border: 4px solid #ffffff;
-  border-radius: 100px;
+/* About */
+
+.about {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  bottom: 16px;
+  left: 16px;
+  overflow: auto;
 }
 
-.about-heading {
-  order: 1;
+.about-profile-photo-container {
+  text-align: center;
+  margin-bottom: 16px;
 }
 
 .about-description {
-  order: 2;
   text-align: justify;
-  margin-top: 8px;
-  margin-bottom: 80px;
+  margin-bottom: 20px;
 }
+
+.about-heading {
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.about-timeline-heading {
+  font-weight: bold;
+}
+
+.about-timeline-body {
+  text-align: justify;
+  margin-left: 16px;
+  border-left: 1px solid var(--md-sys-color-outline-light);
+}
+
+/* Experience */
 
 .experience {
-  padding: 12px 16px 80px 16px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.card {
-  max-width: 500px;
-  border-radius: 12px;
-  margin: 16px;
-  padding: 16px;
-  box-shadow: 0px 2px 4px 1px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  overflow: auto;
 }
 
 .company-logo {
   width: 100%;
-  background-color: #ffffff;
+  background-color: white;
   border-radius: 12px;
 }
 
 .job-title {
-  margin-top: 40px;
   margin-bottom: 8px;
 }
 
 .job-subtitle {
   display: flex;
-  justify-content: space-between;
+  margin-bottom: 20px;
 }
 
-.job-description {
-  margin-top: 40px;
+.job-company-name {
+  flex: 1;
 }
 
-.projects {
-  padding: 12px 16px 80px 16px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.job-duration {
+  flex: 1;
+  text-align: end;
 }
 
-.project-logo {
-  width: 100%;
-  background-color: #ffffff;
-  border-radius: 12px;
+/* Project */
+
+.project {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  overflow: auto;
 }
 
 .project-name {
-  margin-top: 40px;
-  margin-bottom: 8px;
+  text-align: center;
+  background-color: white;
+  color: black;
+  border-radius: 12px;
+  padding: 20px 0px;
 }
 
 .project-tools {
   display: flex;
-  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.project-tools svg {
+  width: 48px;
+  height: 48px;
+}
+
+.project-tool {
+  flex: 1;
+  text-align: center;
 }
 
 .project-description {
-  margin-top: 40px;
+  margin-top: 20px;
 }
 
 .contact {
-  height: 100%;
-  padding-left: 16px;
-  padding-right: 16px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  overflow: auto;
+  display: grid;
 }
 
 .contact-items {
-  padding-bottom: 80px;
+  justify-self: center;
+  align-self: center;
 }
 
 .contact-item {
@@ -241,8 +245,17 @@ body {
   width: 48px;
   height: 48px;
   margin: 14px;
-  background-color: #ffffff;
-  border: 4px solid #ffffff;
+  background-color: white;
+  border: 4px solid white;
+  border-radius: 100px;
+}
+
+.contact svg {
+  width: 48px;
+  height: 48px;
+  margin: 14px;
+  background-color: white;
+  border: 4px solid white;
   border-radius: 100px;
 }
 
@@ -250,7 +263,70 @@ body {
   text-decoration: none;
 }
 
+@media (prefers-color-scheme: dark) {
+  /* Global */
+
+  .profile-photo {
+    border: 4px solid var(--md-sys-color-primary-dark);
+  }
+
+  .card {
+    box-shadow: 0px 1px 3px 1px var(--md-sys-color-outline-variant-dark), 0px 1px 2px 0px var(--md-sys-color-outline-dark);
+  }
+
+  .react-logo-circle {
+    fill: #149dc9;
+  }
+
+  .react-logo-ellipse {
+    stroke: #149dc9;
+  }
+
+  .redux-logo {
+    fill: #ba8fff;
+  }
+
+  .firebase-logo-circle {
+    fill: #fff;
+  }
+
+  .firebase-logo-circle-content {
+    fill: #000;
+    fill-opacity: 0.54;
+  }
+
+  .vercel-logo {
+    fill: white;
+  }
+
+  /* Navigation */
+
+  .navigation-icon svg {
+    fill: var(--md-sys-color-on-surface-variant-dark);
+  }
+
+  .navigation-active {
+    fill: var(--md-sys-color-on-secondary-container-dark);
+    background-color: var(--md-sys-color-secondary-container);
+  }
+
+  /* Home */
+  
+  .contact-icon {
+    fill: var(--md-sys-color-on-background-dark);
+    margin-right: 20px;
+  }
+
+  /* About */
+
+  .about-timeline-body {
+    border-left: 1px solid var(--md-sys-color-outline-dark);
+  }
+}
+
 @media screen and (min-width: 840px) {
+  /* App */
+  
   .app-layout {
     flex-direction: row;
   }
@@ -263,60 +339,84 @@ body {
     order: 2;
   }
 
+  /* Navigation */
+
   .navigation {
     height: 100%;
     width: 80px;
-    flex-direction: column;
-    justify-content: center;
+    display: grid;
+    overflow: auto;
   }
 
   .navigation-item {
-    flex: 0;
+    width: inherit;
+    align-self: center;
+    padding: 0px;
+    margin: 12px 0px;
   }
 
+  .navigation-icon {
+    margin: 0px 12px;
+  }
+
+  /* Home */
+
   .home {
-    padding-left: 80px;
-    margin-left: 24px;
-    margin-right: 24px;
-    flex-direction: row;
-    align-items: center;
+    right: 24px;
+    left: 24px;
+    column-gap: 24px;
   }
 
   .home-heading {
-    margin-right: 24px;
+    grid-column: 1;
+    align-self: center;
   }
+
+  .home-description {
+    grid-column: 2;
+    align-self: center;
+  }
+
+  /* About */
 
   .about {
-    padding-left: 80px;
-    margin-left: 24px;
-    margin-right: 24px;
-    flex-direction: row;
-    align-items: center;
+    right: 24px;
+    left: 24px;
+    display: grid;
+    column-gap: 24px;
   }
 
-  .about-heading {
-    margin-right: 24px;
+  .about-interest {
+    width: 30dvw;
+    grid-column: 1;
+    align-self: center;
   }
 
-  .about-description {
-    max-width: 600px;
+  .about-background {
+    grid-column: 2;
+    align-self: center;
   }
+
+  .about-timeline-body {
+    padding-left: 16px;
+  }
+
+  /* Experience */
 
   .experience {
-    padding-left: 80px;
-    margin-left: 24px;
-    margin-right: 24px;
-    flex-flow: row wrap;
-    justify-content: center;
-    align-items: flex-start;
+    right: 24px;
+    left: 24px;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
   }
 
-  .projects {
-    padding-left: 80px;
-    margin-left: 24px;
-    margin-right: 24px;
-    flex-flow: row wrap;
-    justify-content: center;
-    align-items: flex-start;
+  /* Project */
+
+  .project {
+    right: 24px;
+    left: 24px;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    align-items: start;
   }
 }

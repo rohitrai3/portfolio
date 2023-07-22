@@ -1,9 +1,9 @@
 import About from "./about";
-import Experience from "./experience/experience";
+import Experience from "./experience";
 import Home from "./home";
 import Navigation, { NavigationProps } from "./navigation";
 import { useState } from "react";
-import Projects from "./projects/projects";
+import Project from "./project";
 import Contact from "./contact";
 
 function App() {
@@ -18,7 +18,7 @@ function App() {
       case "experience":
         return <Experience />;
       case "projects":
-        return <Projects />;
+        return <Project />;
       case "contact":
         return <Contact />;
     }
@@ -30,11 +30,11 @@ function App() {
   };
 
   return (
-    <div className="app-layout">
+    <div className="app-layout background on-background-text">
+      <div className="app-content">{getActiveTab()}</div>
       <div className="app-navigation">
         <Navigation {...navigationProps} />
       </div>
-      <div className="app-content">{getActiveTab()}</div>
     </div>
   );
 }
