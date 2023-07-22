@@ -409,12 +409,11 @@ a {
     grid-template-columns: repeat(2, auto);
   }
 
-  .projects {
-    padding-left: 80px;
-    margin-left: 24px;
-    margin-right: 24px;
-    flex-flow: row wrap;
-    justify-content: center;
-    align-items: flex-start;
+  .project {
+    right: 24px;
+    left: 24px;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    align-items: start;
   }
 }
