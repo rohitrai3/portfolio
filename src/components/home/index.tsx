@@ -4,9 +4,9 @@ import { incrementVisitorCounter } from "../../services/database";
 
 export default function Home() {
   const setVisitorCount = async () => {
-    if (!(localStorage.getItem("isVisited") === "true")) {
+    if (!(localStorage.getItem("isPortfolioVisited") === "true")) {
       await incrementVisitorCounter("portfolio");
-      localStorage.setItem("isVisited", "true");
+      localStorage.setItem("isPortfolioVisited", "true");
     }
   };
 
