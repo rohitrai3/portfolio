@@ -1,4 +1,4 @@
-import { app } from "./firebase";
+import app from "./firebase";
 import { child, get, getDatabase, ref, set } from "firebase/database";
 
 const database = getDatabase(app);

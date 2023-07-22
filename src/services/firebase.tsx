@@ -12,4 +12,6 @@ const firebaseConfig = {
     "https://analytics-c17c7-default-rtdb.asia-southeast1.firebasedatabase.app/",
 };
 
-export const app = initializeApp(firebaseConfig);
+const app = initializeApp(firebaseConfig);
+
+export default app;
