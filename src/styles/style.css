@@ -376,20 +376,28 @@ a {
     align-self: center;
   }
 
+  /* About */
+
   .about {
-    padding-left: 80px;
-    margin-left: 24px;
-    margin-right: 24px;
-    flex-direction: row;
-    align-items: center;
+    right: 24px;
+    left: 24px;
+    display: grid;
+    column-gap: 24px;
   }
 
-  .about-heading {
-    margin-right: 24px;
+  .about-interest {
+    width: 30dvw;
+    grid-column: 1;
+    align-self: center;
   }
 
-  .about-description {
-    max-width: 600px;
+  .about-background {
+    grid-column: 2;
+    align-self: center;
+  }
+
+  .about-timeline-body {
+    padding-left: 16px;
   }
 
   .experience {
