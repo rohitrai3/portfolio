@@ -358,16 +358,22 @@ a {
     margin: 0px 12px;
   }
 
+  /* Home */
+
   .home {
-    padding-left: 80px;
-    margin-left: 24px;
-    margin-right: 24px;
-    flex-direction: row;
-    align-items: center;
+    right: 24px;
+    left: 24px;
+    column-gap: 24px;
   }
 
   .home-heading {
-    margin-right: 24px;
+    grid-column: 1;
+    align-self: center;
+  }
+
+  .home-description {
+    grid-column: 2;
+    align-self: center;
   }
 
   .about {
