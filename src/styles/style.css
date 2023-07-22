@@ -220,17 +220,18 @@ a {
 }
 
 .contact {
-  height: 100%;
-  padding-left: 16px;
-  padding-right: 16px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  overflow: auto;
+  display: grid;
 }
 
 .contact-items {
-  padding-bottom: 80px;
+  justify-self: center;
+  align-self: center;
 }
 
 .contact-item {
@@ -408,6 +409,8 @@ a {
     display: grid;
     grid-template-columns: repeat(2, auto);
   }
+
+  /* Project */
 
   .project {
     right: 24px;
