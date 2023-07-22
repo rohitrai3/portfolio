@@ -1,15 +1,12 @@
-import linkedin from "../assets/linkedin.svg";
-import github from "../assets/github.svg";
-import gmail from "../assets/gmail.svg";
+import GmailLogo from "../../assets/gmail_logo.png";
+import { GitHubLogo, LinkedInLogo } from "../../common/icons";
 
 export default function Contact() {
   return (
     <div className="contact">
       <div className="contact-items">
         <div className="contact-item">
-          <a href="https://www.linkedin.com/in/rohitrai03/">
-            <img src={linkedin} />
-          </a>
+          <a href="https://www.linkedin.com/in/rohitrai03/">{LinkedInLogo}</a>
           <div className="headline-large">
             <a
               className="on-background-text"
@@ -20,13 +17,11 @@ export default function Contact() {
           </div>
         </div>
         <div className="contact-item">
-          <img src={gmail} />
+          <img src={GmailLogo} />
           <div className="headline-large on-background-text">rohitraijob</div>
         </div>
         <div className="contact-item">
-          <a href="https://github.com/rohitrai3">
-            <img src={github} />
-          </a>
+          <a href="https://github.com/rohitrai3">{GitHubLogo}</a>
           <div className="headline-large">
             <a
               className="on-background-text"

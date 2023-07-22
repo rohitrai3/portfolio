@@ -1,7 +1,7 @@
-import AmazonLogo from "../../assets/amazon-logo.png";
+import AmazonLogo from "../../assets/amazon_logo.png";
 import NSUTLogo from "../../assets/nsut_logo.png";
 import InfotechLogo from "../../assets/infotech_logo.jpg";
-import whirlpool from "../../assets/whirlpool-logo.png";
+import whirlpool from "../../assets/whirlpool_logo.png";
 import ExperienceCard, { ExperienceCardProps } from "./ExperienceCard";
 
 export default function Experience() {
