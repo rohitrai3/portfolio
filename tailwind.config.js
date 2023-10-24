@@ -7,11 +7,13 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        pressStart2P: ["PressStart2P-Regular", "sans-serif"],
-        robotoMono: ["RobotoMono-Regular", "sans"]
+        pressStart2P: ["PressStart2P-Regular", "sans-serif"]
       },
       height: {
         dvh: "100dvh"
+      },
+      margin: {
+        "dvw-1/2": "50dvw"
       }
     },
   },

@@ -11,15 +11,16 @@ export default function Intro() {
       </p>
     );
   };
+
   return (
-    <div className="h-dvh lg:w-1/2 flex justify-center items-center">
+    <div className="h-dvh lg:w-1/2 lg:fixed lg:top-0 flex justify-center items-center">
       <div className="uppercase text-4xl text-center">
         <img width={200} src={Profile} alt="Profile" />
         <div className="font-pressStart2P">
           {spreadLetters("Rohit")}
           {spreadLetters("Rai")}
         </div>
-        <div className="font-robotoMono opacity-50">
+        <div className="opacity-50">
           {spreadLetters("Software")}
           {spreadLetters("Engineer")}
         </div>
