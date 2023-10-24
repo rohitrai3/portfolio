@@ -5,7 +5,15 @@ export default {
     "./src/**/*.{ts,tsx}"
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        pressStart2P: ["PressStart2P-Regular", "sans-serif"],
+        robotoMono: ["RobotoMono-Regular", "sans"]
+      },
+      height: {
+        dvh: "100dvh"
+      }
+    },
   },
   plugins: [],
 }

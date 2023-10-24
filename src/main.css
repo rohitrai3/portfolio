@@ -1,3 +1,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  body {
+    background-color: black;
+    color: white;
+  }
+}
+
+@font-face {
+  font-family: "PressStart2P-Regular";
+  src: url("./assets/fonts/PressStart2P-Regular.ttf");
+}
+
+@font-face {
+  font-family: "RobotoMono-Regular";
+  src: url("./assets/fonts/RobotoMono-Regular.ttf");
+}
