@@ -1,12 +1,16 @@
 import Profile from "../../assets/images/rohitrai.png";
+import { v4 as uuid } from "uuid";
+
 export default function Intro() {
   const spreadLetters = (word: string): JSX.Element => {
     const letters: Array<string> = [];
-    for (let i = 0; i < word.length; i++) letters.push(word[i]);
+    for (let i = 0; i < word.length; i++) {
+      letters.push(word[i]);
+    }
     return (
       <p className="flex justify-between">
         {letters.map((letter) => (
-          <span>{letter}</span>
+          <span key={uuid()}>{letter}</span>
         ))}
       </p>
     );
@@ -20,7 +24,7 @@ export default function Intro() {
           {spreadLetters("Rohit")}
           {spreadLetters("Rai")}
         </div>
-        <div className="opacity-50">
+        <div className="text-gray-500">
           {spreadLetters("Software")}
           {spreadLetters("Engineer")}
         </div>

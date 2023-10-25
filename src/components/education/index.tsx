@@ -1,17 +1,18 @@
 import data from "./data.json";
+import { v4 as uuid } from "uuid";
 
 export default function Education() {
   return (
     <div className="lg:w-1/2 lg:ml-dvw-1/2 lg:pr-20 lg:mt-20 space-y-5 mx-10">
       <h1 className="uppercase text-4xl mb-10 text-center">Education</h1>
       {Object.values(data).map((val) => (
-        <div className="text-xl space-y-2">
+        <div key={uuid()} className="text-xl space-y-2">
           <div className="flex justify-between">
-            <p className="text-2xl">{val.degree}</p>
-            <p className="opacity-50">{val.timeline}</p>
+            <h2 className="text-2xl">{val.degree}</h2>
+            <p className="text-gray-500">{val.timeline}</p>
           </div>
-          <p className="opacity-50">{val.college}</p>
-          <p className="opacity-50 text-end">{val.marks}</p>
+          <p className="text-gray-500">{val.college}</p>
+          <p className="text-gray-500 text-end">{val.marks}</p>
         </div>
       ))}
     </div>
