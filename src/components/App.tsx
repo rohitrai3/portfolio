@@ -5,6 +5,7 @@ import Experience from "./experience";
 import OpenSourceContributions from "./openSourceContributions";
 import Events from "./events";
 import Projects from "./projects";
+import Skills from "./skills";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <OpenSourceContributions />
       <Events />
       <Projects />
+      <Skills />
     </div>
   );
 }
