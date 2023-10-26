@@ -1,27 +1,10 @@
+import { getFormattedText } from "../common/utils";
 import data from "./data.json";
 import { v4 as uuid } from "uuid";
 
 export default function Experience() {
-  const getFormattedText = (text: string): JSX.Element => {
-    const subTexts: Array<string> = text.split("*");
-    let toggle: boolean;
-
-    return (
-      <p>
-        {subTexts.map((subText) => {
-          toggle = !toggle;
-          if (toggle) {
-            return subText;
-          } else {
-            return <span className="text-gray-300">{subText}</span>;
-          }
-        })}
-      </p>
-    );
-  };
-
   return (
-    <div className="lg:w-1/2 lg:ml-dvw-1/2 lg:pr-20 mx-10 mt-20 space-y-10">
+    <div className="max-w-lg lg:ml-dvw-1/2 max-lg:self-center mx-10 mt-20 space-y-10">
       <h1 className="uppercase text-4xl text-center">Experience</h1>
       {Object.values(data).map((val) => (
         <div key={uuid()} className="text-xl space-y-2">
