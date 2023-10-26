@@ -3,6 +3,7 @@ import Intro from "./intro";
 import Education from "./education";
 import Experience from "./experience";
 import OpenSourceContributions from "./openSourceContributions";
+import Events from "./events";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Education />
       <Experience />
       <OpenSourceContributions />
+      <Events />
     </div>
   );
 }
