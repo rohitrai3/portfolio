@@ -1,0 +1,14 @@
+{
+  "messenger": {
+    "logo": "messenger.png",
+    "width": "100%",
+    "name": "Messenger",
+    "details": ["Web application for text base communication with other users.", "Front-end: Website using *React*, *Redux* and written in *TypeScript*. Uses *Firebase Authentication* and deployed on *Vercel*.", "Back-end: *11 RESTful APIs* using *Spring Boot* and written in *Java*. Uses *Firabase Realtime Database* and deployed on *Oracle OCI* using *nginx* as *reverse proxy*.", "Applied *Test-driven development (TDD)* and *Micro-service architecture*.", "Features: User authentication, Contacts, Connection requests, and Real-time chat."]
+  },
+  "photoshare": {
+    "logo": "photoshare.png",
+    "width": "100%",
+    "name": "PhotoShare",
+    "details": ["Web application for sharing images with other users.", "Front-end: Website using *React*, *Redux* and written in *TypeScript*. Uses *Firebase Authentication* and deployed on *Vercel*.", "Back-end: *Firebase Database* and *Storage* using *Node.js* written in *TypeScript*.", "Features: User authentication, Contacts, Upload photo, Bookmark, and Comment."]
+  }
+}
