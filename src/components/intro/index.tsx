@@ -1,4 +1,3 @@
-import Profile from "../../assets/images/rohitrai.png";
 import { v4 as uuid } from "uuid";
 
 export default function Intro() {
@@ -19,7 +18,7 @@ export default function Intro() {
   return (
     <div className="h-dvh lg:w-1/2 lg:fixed lg:top-0 flex justify-center items-center">
       <div className="uppercase text-4xl text-center">
-        <img width={200} src={Profile} alt="Profile" />
+        <img width={200} src="rohitrai.png" alt="Profile" />
         <div className="font-pressStart2P">
           {spreadLetters("Rohit")}
           {spreadLetters("Rai")}

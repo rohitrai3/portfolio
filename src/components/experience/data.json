@@ -1,6 +1,6 @@
 {
   "amazon": {
-    "logo": "/src/assets/images/amazon.png",
+    "logo": "amazon.png",
     "width": "100%",
     "role": "Software Development Engineer Intern",
     "organization": "Amazon Development Center India Pvt. Ltd., Bangalore",
@@ -8,7 +8,7 @@
     "details": ["Project title: *Self Service tool for A/B Testing*.", "Responsible for developing *10+ RESTful APIs* for interacting with backend service.", "*Design and developed UI/UX* and connected it with backend APIs.", "Integrated *User Authentication* and implemented *Role based access control* for resource access in UI.", "Tools used: React, Redux, AWS (DynamoDB, Amplify, CloudFormation, CloudFront, Route 53, Cognito, Certificate Manager, Secrets Manager), Micro-service architecture."]
   },
   "nsut": {
-    "logo": "/src/assets/images/nsut.png",
+    "logo": "nsut.png",
     "width": "200px",
     "role": "Teaching Assistant",
     "organization": "Netaji Subhas University of Technology, New Delhi",
@@ -16,7 +16,7 @@
     "details": ["Conducting weekly labs and evaluating assignments.", "Managed communication between students and faculties."]
   },
   "soinfotech": {
-    "logo": "/src/assets/images/soinfotech.jpg",
+    "logo": "soinfotech.jpg",
     "width": "100%",
     "role": "Java Developer Trainee",
     "organization": "S. O. Infotech (P) LTD., Faridabad",
@@ -24,7 +24,7 @@
     "details": ["Project title: College ERP System.", "Design and Developed the front-end and back-end.", "Tools used: Java Server Pages, Oracle Database."]
   },
   "whirlpool": {
-    "logo": "/src/assets/images/whirlpool.png",
+    "logo": "whirlpool.png",
     "width": "100%",
     "role": "Trainee, IT Department",
     "organization": "Whirpool of India LTD., Faridabad",

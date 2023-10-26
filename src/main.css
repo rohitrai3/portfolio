@@ -4,12 +4,12 @@
 
 @font-face {
   font-family: "PressStart2P-Regular";
-  src: url("./assets/fonts/PressStart2P-Regular.ttf");
+  src: url("./assets/PressStart2P-Regular.ttf");
 }
 
 @font-face {
   font-family: "RobotoMono-Regular";
-  src: url("./assets/fonts/RobotoMono-Regular.ttf");
+  src: url("./assets/RobotoMono-Regular.ttf");
 }
 
 @layer base {

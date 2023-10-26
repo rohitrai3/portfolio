@@ -1,6 +1,6 @@
 {
   "freeCodeCamp": {
-    "logo": "/src/assets/images/freeCodeCamp.png",
+    "logo": "freeCodeCamp.png",
     "width": "100%",
     "name": "FreeCodeCamp",
     "number": 3,
