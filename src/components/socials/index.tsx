@@ -6,14 +6,18 @@ export default function Socials() {
       <h1 className="uppercase text-4xl text-center">Socials</h1>
       <div className="grid grid-cols-3 gap-x-10">
         {Object.values(data).map((val) => (
-          <div className="grid gap-1">
-            <img
-              className="h-24 justify-self-center"
-              src={val.logo}
-              alt={val.name}
-            />
-            <p className="text-gray-500 text-xl text-center">{val.username}</p>
-          </div>
+          <a href={val.link}>
+            <div className="grid gap-1">
+              <img
+                className="h-24 justify-self-center"
+                src={val.logo}
+                alt={val.name}
+              />
+              <p className="text-gray-500 text-xl text-center">
+                {val.username}
+              </p>
+            </div>
+          </a>
         ))}
       </div>
     </div>
