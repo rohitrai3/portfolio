@@ -1,0 +1,34 @@
+{
+  "amazon": {
+    "logo": "amazon.png",
+    "width": "100%",
+    "role": "Software Development Engineer Intern",
+    "organization": "Amazon Development Center India Pvt. Ltd., Bangalore",
+    "timelines": ["Jan. 2023 - Jun. 2023"],
+    "details": ["Project title: *Self Service tool for A/B Testing*.", "Responsible for developing *10+ RESTful APIs* for interacting with backend service.", "*Design and developed UI/UX* and connected it with backend APIs.", "Integrated *User Authentication* and implemented *Role based access control* for resource access in UI.", "Tools used: React, Redux, AWS (DynamoDB, Amplify, CloudFormation, CloudFront, Route 53, Cognito, Certificate Manager, Secrets Manager), Micro-service architecture."]
+  },
+  "nsut": {
+    "logo": "nsut.png",
+    "width": "200px",
+    "role": "Teaching Assistant",
+    "organization": "Netaji Subhas University of Technology, New Delhi",
+    "timelines": ["Aug. 2021 - Dec. 2022"],
+    "details": ["Conducting weekly labs and evaluating assignments.", "Managed communication between students and faculties."]
+  },
+  "soinfotech": {
+    "logo": "soinfotech.jpg",
+    "width": "100%",
+    "role": "Java Developer Trainee",
+    "organization": "S. O. Infotech (P) LTD., Faridabad",
+    "timelines": ["Jan. 2019 - Apr. 2019"],
+    "details": ["Project title: College ERP System.", "Design and Developed the front-end and back-end.", "Tools used: Java Server Pages, Oracle Database."]
+  },
+  "whirlpool": {
+    "logo": "whirlpool.png",
+    "width": "100%",
+    "role": "Trainee, IT Department",
+    "organization": "Whirpool of India LTD., Faridabad",
+    "timelines": ["Jun. 2018 - Jul. 2018", "Jun. 2017 - Jul. 2017"],
+    "details": ["Designed a dashboard to show the stats of production line.", "Managed Excel sheets of production line."]
+  }
+}

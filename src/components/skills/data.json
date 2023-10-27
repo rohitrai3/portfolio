@@ -1,0 +1,58 @@
+{
+  "java": {
+    "logo": "java.png",
+    "name": "Java"
+  },
+  "javascript": {
+    "logo": "javascript.png",
+    "name": "JavaScript"
+  },
+  "typescript": {
+    "logo": "typescript.svg",
+    "name": "TypeScript"
+  },
+  "git": {
+    "logo": "git.svg",
+    "name": "Git"
+  },
+  "github": {
+    "logo": "github.svg",
+    "name": "GitHub"
+  },
+  "linux": {
+    "logo": "linux.svg",
+    "name": "Linux"
+  },
+  "firebase": {
+    "logo": "firebase.svg",
+    "name": "Firebase"
+  },
+  "nginx": {
+    "logo": "nginx.svg",
+    "name": "NGINX"
+  },
+  "spring": {
+    "logo": "spring.svg",
+    "name": "Spring"
+  },
+  "nodejs": {
+    "logo": "nodejs.svg",
+    "name": "Node.js"
+  },
+  "react": {
+    "logo": "react.svg",
+    "name": "React"
+  },
+  "redux": {
+    "logo": "redux.svg",
+    "name": "Redux"
+  },
+  "figma": {
+    "logo": "figma.svg",
+    "name": "Figma"
+  },
+  "vercel": {
+    "logo": "vercel.svg",
+    "name": "Vercel"
+  }
+}

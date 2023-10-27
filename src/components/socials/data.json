@@ -1,0 +1,20 @@
+{
+  "github": {
+    "logo": "github.svg",
+    "name": "GitHub",
+    "username": "rohitrai3",
+    "link": "https://github.com/rohitrai3"
+  },
+  "linkedin": {
+    "logo": "linkedin.png",
+    "name": "LinkedIn",
+    "username": "rohitrai03",
+    "link": "https://www.linkedin.com/in/rohitrai03/"
+  },
+  "gmail": {
+    "logo": "gmail.svg",
+    "name": "GMail",
+    "username": "rohitraijob",
+    "link": "mailto:rohitraijob@gmail.com"
+  }
+}

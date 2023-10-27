@@ -1,0 +1,9 @@
+{
+  "freeCodeCamp": {
+    "logo": "freeCodeCamp.png",
+    "width": "100%",
+    "name": "FreeCodeCamp",
+    "number": 3,
+    "details": ["Wrote code for *Website End-To-End Test* using *Playwright* library."]
+  }
+}
