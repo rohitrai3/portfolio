@@ -6,6 +6,7 @@ import OpenSourceContributions from "./openSourceContributions";
 import Events from "./events";
 import Projects from "./projects";
 import Skills from "./skills";
+import Socials from "./socials";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Events />
       <Projects />
       <Skills />
+      <Socials />
     </div>
   );
 }
