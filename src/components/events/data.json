@@ -4,13 +4,15 @@
     "width": "100%",
     "name": "Hacktoberfest",
     "timeline": "01 Oct. 2023 - 31 Oct. 2023",
-    "details": ["Made *4 open source contributions* to complete the challenge.", "Contributed End-To-End test code to *FreeCodeCamp*.", "Got a tree planted in my name."]
+    "details": ["Made *4 open source contributions* to complete the challenge.", "Contributed End-To-End test code to *FreeCodeCamp*.", "Got a tree planted in my name."],
+    "link": "https://www.linkedin.com/feed/update/urn:li:activity:7123195758522028033/"
   },
   "spaceappschallenge": {
     "logo": "spaceAppsChallenge.png",
     "width": "100%",
     "name": "Space Apps Challenge",
     "timeline": "07 Oct. 2023 - 08 Oct. 2023",
-    "details": ["Created a *3D Interactive Model of Moon* showcasing Moonquakes data collected by Apollo missions.", "Tools used: Blender, ThreeJS, ObsPy.", "Web App: https://spaceapps-moonquake.rohitrai.dev/"]
+    "details": ["Created a *3D Interactive Model of Moon* showcasing Moonquakes data collected by Apollo missions.", "Tools used: Blender, ThreeJS, ObsPy."],
+    "link": "https://www.spaceappschallenge.org/2023/find-a-team/eldians/?tab=project"
   }
 }
