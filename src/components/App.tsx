@@ -7,6 +7,7 @@ import Events from "./events";
 import Projects from "./projects";
 import Skills from "./skills";
 import Socials from "./socials";
+import References from "./references";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <Projects />
       <Skills />
       <Socials />
+      <References />
     </div>
   );
 }
