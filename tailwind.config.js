@@ -10,6 +10,7 @@ export default {
         xs: "2px"
       },
       colors: {
+        "illuminating": "#F5DF4D",
         "vary-pery": "#6667AB",
         "viva-magenta": "#BB2649",
       },
