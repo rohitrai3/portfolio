@@ -17,5 +17,6 @@
     background-color: black;
     color: white;
     font-family: "RobotoMono-Regular", "sans";
+    background-image: url("./assets/graph.svg");
   }
 }
