@@ -6,6 +6,12 @@ export default {
   ],
   theme: {
     extend: {
+      backdropBlur: {
+        xs: "2px"
+      },
+      colors: {
+        "viva-magenta": "#BB2649"
+      },
       fontFamily: {
         pressStart2P: ["PressStart2P-Regular", "sans-serif"]
       },
