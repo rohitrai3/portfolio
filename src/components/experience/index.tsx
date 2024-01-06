@@ -4,7 +4,7 @@ import { v4 as uuid } from "uuid";
 
 export default function Experience() {
   return (
-    <div className="max-w-lg lg:ml-dvw-1/2 max-lg:self-center mx-10 mt-20 space-y-10">
+    <div className="bg-vary-pery/[0.3] backdrop-blur-xs max-w-lg lg:ml-dvw-1/2 max-lg:self-center mx-4 mt-20 space-y-10 p-4 rounded-3xl">
       <h1 className="uppercase text-4xl text-center">Experience</h1>
       {Object.values(data).map((val) => (
         <div key={uuid()} className="text-xl space-y-2">
