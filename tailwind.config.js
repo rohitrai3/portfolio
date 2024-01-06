@@ -13,6 +13,7 @@ export default {
         "classic-blue": "#0F4C81",
         "illuminating": "#F5DF4D",
         "living-coral": "#FF6F61",
+        "ultra-violet": "#5F4B8B",
         "vary-pery": "#6667AB",
         "viva-magenta": "#BB2649",
       },
