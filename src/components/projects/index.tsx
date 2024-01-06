@@ -3,7 +3,7 @@ import data from "./data.json";
 
 export default function Projects() {
   return (
-    <div className="max-w-lg lg:ml-dvw-1/2 max-lg:self-center mt-20 mx-10">
+    <div className="bg-living-coral/[0.3] backdrop-blur-xs max-w-lg lg:ml-dvw-1/2 max-lg:self-center mt-20 mx-4 p-4 rounded-3xl">
       <h1 className="uppercase text-4xl text-center mb-10">Projects</h1>
       {Object.values(data).map((val) => (
         <a className="block" href={val.link}>

@@ -2,7 +2,7 @@ import data from "./data.json";
 
 export default function Socials() {
   return (
-    <div className="max-w-lg lg:ml-dvw-1/2 max-lg:self-center my-20 mx-10 space-y-10">
+    <div className="bg-greenery/[0.3] backdrop-blur-xs max-w-lg lg:ml-dvw-1/2 max-lg:self-center my-20 mx-4 space-y-10 p-4 rounded-3xl">
       <h1 className="uppercase text-4xl text-center">Socials</h1>
       <div className="flex justify-between">
         {Object.values(data).map((val) => (

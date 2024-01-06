@@ -3,7 +3,7 @@ import { v4 as uuid } from "uuid";
 
 export default function Education() {
   return (
-    <div className="max-w-lg lg:ml-dvw-1/2 lg:mt-20 max-lg:self-center space-y-5 mx-10">
+    <div className="bg-viva-magenta/[0.3] backdrop-blur-xs max-w-lg lg:ml-dvw-1/2 lg:mt-20 max-lg:self-center space-y-5 mx-4 p-4 rounded-3xl">
       <h1 className="uppercase text-4xl mb-10 text-center">Education</h1>
       {Object.values(data).map((val) => (
         <div key={uuid()} className="text-xl space-y-2">

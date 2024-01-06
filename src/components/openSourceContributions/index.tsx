@@ -3,7 +3,7 @@ import data from "./data.json";
 
 export default function OpenSourceContributions() {
   return (
-    <div className="max-w-lg lg:ml-dvw-1/2 max-lg:self-center mt-20 mx-10 space-y-10">
+    <div className="bg-illuminating/[0.3] backdrop-blur-xs max-w-lg lg:ml-dvw-1/2 max-lg:self-center mt-20 mx-4 space-y-10 p-4 rounded-3xl">
       <h1 className="uppercase text-4xl text-center">
         Open Source Contributions
       </h1>
