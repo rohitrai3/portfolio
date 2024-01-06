@@ -12,6 +12,7 @@ export default {
       colors: {
         "classic-blue": "#0F4C81",
         "illuminating": "#F5DF4D",
+        "living-coral": "#FF6F61",
         "vary-pery": "#6667AB",
         "viva-magenta": "#BB2649",
       },
